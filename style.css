@@ -247,15 +247,19 @@ p{
     margin-top: -30px;
 }
 .habilidades{
-    
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: -150px;
     padding-bottom: 50px;
+    transition: ease-in-out all;
+    transition-duration: 0.4s;
 }
 .habilidades .item-habilidades{
     box-shadow:-2px -2px 5px #a233ce1f ;
+}
+.habilidades .item-habilidades:hover{
+    zoom: 110%;
 }
 .habilidades .item-habilidades img{
     width: 100px;
