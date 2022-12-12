@@ -128,14 +128,14 @@ p{
     letter-spacing: 5px;
 }
 .wave-svg{
-    margin-top: -220px;
+    margin-top: -260px;
     
 }
 .wave-svg svg path{
     fill: #fff;
 }
 .acerca-de-mi{
-    margin-top: -150px;
+    margin-top: -60px;
     display: flex;
     padding: 0px 10%;
 }
