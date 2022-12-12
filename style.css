@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono&family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Major+Mono+Display&family=Share+Tech+Mono&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*fuentes*/
+/*font-family: 'Fragment Mono', monospace; ///menu y subt
+font-family: 'Inconsolata', monospace;  
+font-family: 'Major Mono Display', monospace; ///logo
+font-family: 'Share Tech Mono', monospace;   //tittler*/   
+
+/*paleta de colores
+#a233ce
+#65439b
+#5e6c84
+#4de2ce
+#bd7dc2
+
+*/
+
+
+.tittle{
+    font-family: 'Share Tech Mono', monospace;
+}
+.subtittle{
+    font-family: 'Fragment Mono', monospace;
+}
+p{
+    font-family: 'Inconsolata', monospace;
+}
+
+
+.contenedor {
+    background-color: #fff;
+}
+
+.header {
+    height: 20vh;
+    width: 100%;
+    background-color: #65439b;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+}
+.logo h1 a{
+    font-family: 'Major Mono Display', monospace;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.menu-nav {
+    width: 55%;
+}
+
+.menu-nav ul {
+    display: flex;
+}
+
+.menu-nav ul li {
+    list-style: none;
+}
+
+.menu-nav ul li a {
+    display: block;
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 15px;
+    text-transform: capitalize;
+}
+.btn-accs{
+    width: 10%;
+    margin: 2.5%;
+    border-radius: 1%;
+}
+.btn-accs a{
+    text-decoration: none;
+    color: white;
+}
+.btn-accs:hover{
+    border-radius: 3%;
+    border: 2px solid #a233ce;
+}
+.btn-accs i:hover{
+    color: #00ffff;
+}
+.btn-accs i{
+    color: #a233ce;
+    font-size: 25px;
+    padding: 5px;
+}
+.btn-accs button{
+    color: white;
+    font-size: 1rem;
+    width: 120px;
+    height: 35px;
+    border-radius: 5%;
+    border: none;
+    background-color: transparent;
+}
+.bg-principal{
+    background-color: #a233ce;
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.bg-principal h1{
+    color: white;
+    text-transform: lowercase;
+    font-size: 3.5rem;
+}
+.bg-principal h2{
+    color: #81ffee;
+    font: 2rem;
+    font-weight: 100;
+    letter-spacing: 5px;
+}
+.wave-svg{
+    margin-top: -220px;
+    
+}
+.wave-svg svg path{
+    fill: #fff;
+}
+.acerca-de-mi{
+    margin-top: -150px;
+    display: flex;
+    padding: 0px 10%;
+}
+.acerca-de-mi img{
+    width: 300px;
+    border-radius: 100%;
+    filter: grayscale(1);
+}
+.acerca-de-mi .texto{
+    margin-top: 50px;
+    padding: 5%;
+}
+.acerca-de-mi .texto p{
+    text-align: justify;
+    font-size: 1.5rem;
+}
+.experiencia{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.experiencia .item{
+    width: 19%;
+    height: 250px;
+    background-color:#65439b;
+    border: none;
+    border-radius: 5%;
+   margin: 30px 40px;
+   padding: 30px;
+   box-shadow: 10px 10px 5px #a233ce14 ;
+}
+.experiencia .item h1{
+    color: white;
+    text-align: center;
+
+}
+.experiencia .item p{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.experiencia .item span a{
+    color: #00ffff;
+    text-align: center;
+    text-decoration: none;
+}
+.experiencia .item span i{
+    color: #00ffff;
+    padding: 10px;
+    font-size: 20px;
+}
+.svg-edu-sep{
+    margin-top: -100px;
+}
+
+.educacion{
+    width: 100%;
+    display: flex;
+    height: auto;flex-wrap: wrap;
+    justify-content: center;
+    background-color: #a233ce;
+    margin-top: -10px;
+    padding: 40px 0px 80px 0px;
+}
+.educacion .item-edu{
+    width: 70%;
+    height: 150px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.educacion .item-edu .img-item-edu img{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin-left: 20px;
+    box-shadow: -5px 5px 5px #1713187a ;
+}
+.educacion .item-edu .texto-item-edu{
+    padding: 10px 40px;
+    border-bottom: 1px solid #4de2ce6d;
+    border-radius: 3%;
+    height: 100px;
+    box-shadow: -2px -5px 5px #17131838 ;
+    margin-left: 40px;
+}
+.texto-item-edu h1{
+    color: white;
+    margin-bottom: 10px;
+}
+.texto-item-edu p{
+    color: white;
+    text-align: justify;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+.texto-item-edu p>a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1rem;
+
+}
+.svg-habilidades-sep{
+    margin-top: -30px;
+}
+.habilidades{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -150px;
+    padding-bottom: 50px;
+}
+.habilidades .item-habilidades{
+    box-shadow:-2px -2px 5px #a233ce1f ;
+}
+.habilidades .item-habilidades img{
+    width: 100px;
+    padding: 20px;
+}
+.habilidades .item-habilidades h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+}
+.proyectos{
+    padding: 30px 200px;
+    display: flex;
+}
+.item-contribuciones{
+    width: 40%;
+    background-image: url(img/mejores-software-programacion.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 35px;
+    margin: 20px;
+    border-radius: 2%;
+}
+.contribuciones{
+    margin-top: 40px;
+    text-align: center;
+    color: #a233ce;
+    font-size: 2rem;
+    letter-spacing: 5px;
+    
+}
+.item-contribuciones .proyecto-contribuciones{
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 15px;
+    color: white;
+
+}
+.item-contribuciones p{
+    text-align: justify;
+    color: white;
+}
+.item-contribuciones button{
+    background-color: #a233ce;
+    width: 40%;
+    color: white;
+    height: 35px;
+    border: none;
+    border-radius: 2%;
+    margin-top: 30px;
+    margin-left: 30%;
+}
+.item-contribuciones button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
